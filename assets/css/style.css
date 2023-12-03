@@ -1,3 +1,5 @@
+/* General CSS Settings */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,17 @@
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* CSS For the header banner panel, inclusing the navigation */
 
 .header {
     padding: 20px;
@@ -34,21 +47,13 @@ body {
     
 }
 
-
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
     
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* Main Image */
 
 .hero {
     height: 800px;
@@ -58,6 +63,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Main Content Section */
 
 .float-left {
     float: left;
@@ -94,6 +101,8 @@ article {
     color: #ffffff;
 }
 
+/* Aside section (right hand side) */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -122,6 +131,7 @@ article {
     max-width: 150px;
 }
 
+/* Footer section */
 
 .footer {
     padding: 30px;
